@@ -1,0 +1,13 @@
+{
+  "name": "todo-app",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "server:dev": "pnpm --filter @todo-app/server run start:dev",
+    "server:build": "pnpm --filter @todo-app/server run build"
+  }
+}
