@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "server:dev": "pnpm --filter @todo-app/server run start:dev",
-    "server:build": "pnpm --filter @todo-app/server run build"
+    "server:build": "pnpm --filter @todo-app/server run build",
+    "server:debug": "pnpm --filter @todo-app/server run start:debug"
   }
 }
